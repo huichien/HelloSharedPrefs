@@ -1,18 +1,4 @@
-/*
- * Copyright (C) 2016 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package com.example.android.hellosharedprefs;
 
 import android.content.SharedPreferences;
@@ -26,16 +12,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-/**
- * HelloSharedPrefs is an adaptation of the HelloToast app from chapter 1.
- * It includes:
- * - Buttons for changing the background color.
- * - Maintenance of instance state.
- * - Themes and styles.
- * - Read and write shared preferences for the current count and the color.
- * <p>
- * This is the starter code for HelloSharedPrefs.
- */
 public class MainActivity extends AppCompatActivity {
     private int mScore1;
     private int mScore2;
@@ -44,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     static final String SCORE_1_KEY = "Team 1 score";
     static final String SCORE_2_KEY = "Team 2 score";
     SharedPreferences sharedPreferences;
-    private static final String sharedPrefFile = "me.mahakagg.scorekeeperhwsharedpref";
+    private static final String sharedPrefFile = "com.example.android.hellosharedprefs";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

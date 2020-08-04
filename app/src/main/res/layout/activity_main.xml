@@ -75,7 +75,7 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:onClick="decreaseScore"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:id="@+id/score_2"
